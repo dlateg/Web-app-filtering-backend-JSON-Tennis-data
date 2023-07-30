@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+  <title> ... </title>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/iwt-cw.js"></script>
+</head>
+<body>
+ <form action="iwt-cw2.php" method="GET">
+
+    <br><label for="file">select a file:</label>
+      <select id="file" name="file">
+        <option value="default">please select a file</option>
+        <option value="men winners">mens grand slam winners</option>
+        <option value="women winners">womens grand slam winners</option></select><br>
+
+    <br><label for="year">Year:</label>
+    <input type="text" id="year" name="year">
+    
+    <br><label for="condition">condition for year:</label>
+      <select id="condition" name="yearOp">
+        <option value="equals">equals</option>
+        <option value="greater than">greater than</option>
+        <option value="less than">less than</option>
+    </select><br>
+
+    <br><label for="tournament">Tournament:</label>
+      <select id="tournament" name="tournament">
+        <option value="Any">Any</option>
+        <option value="Australian Open">Australian Open</option>
+        <option value="French Open">French Open</option>
+        <option value="Wimbledon">Wimbledon</option>
+        <option value="U.S. Open">U.S. Open</option>
+    </select><br>
+
+    <br><label for="winner">Winner:</label>
+        <input type="text" id="winner" name="winner"><br>
+
+    <br><label for="runner-up">Runner-up:</label>
+        <input type="text" id="runner-up" name="runnerUp"><br>
+
+    <input type="submit" value="send-query">
+    <input type="reset" value="clear-input">
+    <input type="button" value="clear-output">
+    
+ 
+
+</form>
+
+<div id="output"></div>
+
+</body>
+</html>

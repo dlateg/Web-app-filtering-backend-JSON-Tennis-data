@@ -1,4 +1,4 @@
-# Web app designed to fetch previous grand slam winners from a json file in the backend 
+# Web app designed to fetch previous grand slam winners from a json file in the backend server
 1. To run this project download Xammp
 2. Save the my-project folder exactly as it is in the htdocs folder in xampp
 3. Start the Xampp server and browse to http://localhost/my-project
